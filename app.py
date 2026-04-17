@@ -554,7 +554,7 @@ elif "📊 Model Insights" in page:
         with tab:
             path = os.path.join(PLOTS, fname)
             if os.path.exists(path):
-                st.image(path, use_container_width=True, caption=title)
+                st.image(path, use_column_width=True, caption=title)
             else:
                 st.info(f"Plot not yet generated: `{fname}`")
 
