@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Model artifacts (generated at build time on Render)
+model/best_model.pkl
+model/scaler.pkl
+model/feature_columns.pkl
+model/model_metadata.json
+model/plots/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
